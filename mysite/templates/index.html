@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block body_block %}
 
 <section id="showcase">
@@ -26,7 +27,7 @@
 						<p>It uses the same classes as the Bootstrap grid.</p>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-						<i class="fab fa-question-circle-o"></i><br>
+						<i class="fa fa-question-circle-o"></i><br>
 						<h4>Free Support</h4>
 						<p>It uses the same classes as the Bootstrap grid.</p>
 					</div>
@@ -54,6 +55,49 @@
 						<p>It uses the same classes as the Bootstrap grid.</p>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row center-xs middle-xs">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<img src="{% static 'images/iphone.png' %}">
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<h2>Core Features</h2>
+				<li><i class="fa fa-check">Fully Optimized</i></li>
+				<li><i class="fa fa-check">Free Support</i></li>
+				<li><i class="fa fa-check">Free Upgrades</i></li>
+				<li><i class="fa fa-check">UpTime Guarantee</i></li>
+				<li><i class="fa fa-check">Multiple Users</i></li>
+				<li><i class="fa fa-check">Plug & Play</i></li>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h4>Contact Us</h4>
+				<ul>
+					<li><i class="fa fa-phone">(718)801-6224</i></li>
+					<li><i class="fa fa-at">support@test.test</i></li>
+					<li><i class="fa fa-map">300 Swerve St., Bronx NY</i></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h4>About Us</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<h4>Newsletter</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 		</div>
 	</div>
