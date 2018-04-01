@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %}AppTheme{% endblock %}
 {% block body_block %}
 
-<section id="showcase">
+<section class="showcase">
 	<div class="container">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-12">
@@ -13,7 +14,7 @@
 	</div>
 </section>
 
-<section id="showcase">
+<section>
 	<div class="container">
 		<div class="row center-xs">
 			<div class="col-xs-12">
@@ -80,7 +81,7 @@
 	</div>
 </section>
 
-<section>
+<section id="company">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -103,13 +104,5 @@
 	</div>
 </section>
 
-<footer id="main-footer">
-	<div class="container">
-		<div class="row center-xs">
-			<div class="col-xs-12">
-				<p>Copyright &copy; 2017 | AppTheme</p>
-			</div>
-		</div>
-	</div>
-</footer>
+
 {% endblock %}

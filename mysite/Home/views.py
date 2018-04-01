@@ -6,4 +6,5 @@ from django.core.cache import cache
 
 def index(request):
 	cache.clear()
+	print 'wtf b'
 	return render(request,'index.html')

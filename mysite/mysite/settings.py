@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'About',
     'Servces',
     'Contact',
+    'clear_cache',
 ]
 
 MIDDLEWARE = [
